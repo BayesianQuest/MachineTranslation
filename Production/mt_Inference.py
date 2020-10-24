@@ -10,8 +10,7 @@ from factoryModel.utils.helperFunctions import *
 modelPath = confFile.MODEL_PATH
 
 # Load the model from the file path
-#model = load_model(modelPath)
-model = load_model('/media/acer/7DC832E057A5BDB1/JMJTL/Tomslabs/BayesianQuest/MT/MTapp/factoryModel/output/model.h5')
+model = load_model(modelPath)
 
 # Get the paths for all the files and variables stored as pickle files
 Eng_tokPath = confFile.ENG_TOK_PATH
